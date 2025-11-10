@@ -12,10 +12,16 @@ jobs:
           - uses: actions/checkout@v2
           - name: Checkout submodules
             run: git submodule update --init --recursive
+          - name: Debug - Show current directory and files
+            run: |
+              pwd
+              ls -la
+              ls -la *.sh || echo "No .sh files found"
           - name: Clean build directory
             run: rm -rf build
           - name: Run unit test
-            run: ./unit-test.sh
+            run: bash -x ./unit-test.sh
+            
     full-test:
         runs-on: self-hosted
         needs: unit-test
@@ -23,8 +29,12 @@ jobs:
           - uses: actions/checkout@v2
           - name: Checkout submodules
             run: git submodule update --init --recursive
+          - name: Debug - Show current directory and files
+            run: |
+              pwd
+              ls -la
+              ls -la *.sh || echo "No .sh files found"
           - name: Clean build directory
             run: rm -rf build
           - name: Run full test
-            run: ./full-test.sh
-
+            run: bash -x ./full-test.sh
