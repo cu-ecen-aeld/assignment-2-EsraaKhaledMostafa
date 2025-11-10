@@ -1,8 +1,8 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c \
  /usr/include/stdc-predef.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/unity.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/unity_internals.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/unity.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
@@ -29,5 +29,5 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_ass
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/./examples/autotest-validate/autotest-validate.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/./examples/autotest-validate/autotest-validate.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdbool.h

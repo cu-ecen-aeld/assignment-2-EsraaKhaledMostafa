@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse
+CMAKE_SOURCE_DIR = /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build
+CMAKE_BINARY_DIR = /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(CMAKE_COMMAND) -E cmake_progress_start /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/CMakeFiles /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/assignment-autotest/Unity//CMakeFiles/progress.marks
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/CMakeFiles 0
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(CMAKE_COMMAND) -E cmake_progress_start /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/CMakeFiles /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/assignment-autotest/Unity//CMakeFiles/progress.marks
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/clean
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

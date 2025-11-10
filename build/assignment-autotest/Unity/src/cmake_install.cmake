@@ -1,4 +1,4 @@
-# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src
+# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/libunity.a")
+   "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/libunity.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/assignment-autotest/Unity/src/libunity.a")
+  file(INSTALL DESTINATION "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/assignment-autotest/Unity/src/libunity.a")
 endif()
 

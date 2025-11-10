@@ -1,4 +1,4 @@
-# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest
+# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 

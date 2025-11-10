@@ -1,7 +1,7 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/examples/autotest-validate/autotest-validate.c \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/examples/autotest-validate/autotest-validate.c \
  /usr/include/stdc-predef.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/examples/autotest-validate/autotest-validate.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/examples/autotest-validate/autotest-validate.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdbool.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \

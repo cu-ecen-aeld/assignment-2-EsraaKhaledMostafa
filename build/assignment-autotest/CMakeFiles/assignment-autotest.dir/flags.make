@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/. -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/..
+C_INCLUDES = -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/. -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/..
 
 C_FLAGS =  -Wall -Werror -g
 

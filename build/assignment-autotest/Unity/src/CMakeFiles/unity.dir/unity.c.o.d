@@ -1,8 +1,8 @@
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o: \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/unity.c \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/unity.c \
  /usr/include/stdc-predef.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/unity.h \
- /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/unity_internals.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/unity.h \
+ /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \

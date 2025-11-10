@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/CMakeLists.txt"
-  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/CMakeLists.txt"
-  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/CMakeLists.txt"
-  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src/CMakeLists.txt"
+  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/CMakeLists.txt"
+  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/CMakeLists.txt"
+  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/CMakeLists.txt"
+  "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src/CMakeLists.txt"
   "CMakeFiles/3.26.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.5/CMakeSystem.cmake"

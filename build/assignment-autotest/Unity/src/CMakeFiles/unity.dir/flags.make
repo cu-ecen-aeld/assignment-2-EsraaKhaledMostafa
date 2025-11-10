@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/Unity/src
+C_INCLUDES = -I/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/Unity/src
 
 C_FLAGS = 
 

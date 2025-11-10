@@ -1,4 +1,4 @@
-# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse
+# Install script for directory: /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/assignment-autotest/cmake_install.cmake")
+  include("/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/assignment-autotest/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
