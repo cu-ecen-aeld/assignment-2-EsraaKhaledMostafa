@@ -414,3 +414,212 @@ gcc -Wall -Werror -o writer writer.o
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment1 complete with success
+Running test with user esrmosp7
+CMake Error: The current CMakeCache.txt directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/CMakeCache.txt is different than the directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/CMakeLists.txt" does not match the source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Error: Error processing file: CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 1
+make[1]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [clean] Error 2
+-- Generating ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    ../examples/autotest-validate/autotest-validate.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: assignment-autotest
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [cmake_check_build_system] Error 1
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read EsraaKhaledMostafa from conf/username.txt
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/finder-app /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+gcc -Wall -Werror -c -o writer.o writer.c
+gcc -Wall -Werror -o writer writer.o
+/esd/vista_dev/vista_build_tools_lightweight/tools.cvs/release.64bit/bin/../lib/gcc/x86_64-pc-linux-gnu/4.3.4/../../../../x86_64-pc-linux-gnu/bin/ld: BFD (GNU Binutils) 2.21 internal error, aborting at reloc.c line 443 in bfd_get_reloc_size
+
+/esd/vista_dev/vista_build_tools_lightweight/tools.cvs/release.64bit/bin/../lib/gcc/x86_64-pc-linux-gnu/4.3.4/../../../../x86_64-pc-linux-gnu/bin/ld: Please report this bug.
+
+collect2: ld returned 1 exit status
+make: *** [writer] Error 1
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/pEQEYJI6hGozW11FGuMjTus28GRd5rNN
+/tmp/aeld-data/pEQEYJI6hGozW11FGuMjTus28GRd5rNN created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+gcc -Wall -Werror -c -o writer.o writer.c
+gcc -Wall -Werror -o writer writer.o
+/esd/vista_dev/vista_build_tools_lightweight/tools.cvs/release.64bit/bin/../lib/gcc/x86_64-pc-linux-gnu/4.3.4/../../../../x86_64-pc-linux-gnu/bin/ld: BFD (GNU Binutils) 2.21 internal error, aborting at reloc.c line 443 in bfd_get_reloc_size
+
+/esd/vista_dev/vista_build_tools_lightweight/tools.cvs/release.64bit/bin/../lib/gcc/x86_64-pc-linux-gnu/4.3.4/../../../../x86_64-pc-linux-gnu/bin/ld: Please report this bug.
+
+collect2: ld returned 1 exit status
+make: *** [writer] Error 1
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user esrmosp7
+CMake Error: The current CMakeCache.txt directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/CMakeCache.txt is different than the directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/CMakeLists.txt" does not match the source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Error: Error processing file: CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:232: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 1
+make[1]: *** [CMakeFiles/Makefile2:147: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:142: clean] Error 2
+-- Generating ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    ../examples/autotest-validate/autotest-validate.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: assignment-autotest
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:215: cmake_check_build_system] Error 1
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read EsraaKhaledMostafa from conf/username.txt
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/finder-app /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+/usr/bin/gcc -Wall -Werror -c -o writer.o writer.c
+/usr/bin/gcc -Wall -Werror -o writer writer.o
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/2MwGxDoibQSO1dT5oP4u4AR54Q4ynxxo
+/tmp/aeld-data/2MwGxDoibQSO1dT5oP4u4AR54Q4ynxxo created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+/usr/bin/gcc -Wall -Werror -c -o writer.o writer.c
+/usr/bin/gcc -Wall -Werror -o writer writer.o
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user esrmosp7
+CMake Error: The current CMakeCache.txt directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/build/CMakeCache.txt is different than the directory /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/CMakeLists.txt" does not match the source "/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Error: Error processing file: CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:232: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 1
+make[1]: *** [CMakeFiles/Makefile2:147: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:142: clean] Error 2
+-- Generating ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello_Runner.c;/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    ../examples/autotest-validate/autotest-validate.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: assignment-autotest
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:215: cmake_check_build_system] Error 1
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read EsraaKhaledMostafa from conf/username.txt
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+/esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/finder-app /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa/assignment-autotest/test/assignment1 /esd/bata_esd2/esrmosp7/EmbeddedLinuxCourse/assignment-2-EsraaKhaledMostafa
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Error: Two arguments required. Usage: ./writer.sh <file-path> <write-string>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+/usr/bin/gcc -Wall -Werror -c -o writer.o writer.c
+/usr/bin/gcc -Wall -Werror -o writer writer.o
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/u1JXXBqJQdjqE5vPI31VL2UzLdiyxllz
+/tmp/aeld-data/u1JXXBqJQdjqE5vPI31VL2UzLdiyxllz created
+Cleaning up previous builds and compiling the writer application...
+rm -f writer.o writer
+/usr/bin/gcc -Wall -Werror -c -o writer.o writer.c
+/usr/bin/gcc -Wall -Werror -o writer writer.o
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success

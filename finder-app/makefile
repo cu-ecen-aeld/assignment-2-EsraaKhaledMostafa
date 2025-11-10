@@ -1,4 +1,4 @@
-CC=gcc
+CC=/usr/bin/gcc
 CFLAGS=-Wall -Werror
 TARGET=writer
 OBJS=writer.o
